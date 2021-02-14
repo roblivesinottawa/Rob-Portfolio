@@ -40,7 +40,7 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'spacewar.jpg',
+    img: '',
     title: 'Space Wars Game with Python',
     info: `This was the first game that I worked on with a collaborator. This game was built
     using Object Oriented Programming and by using classes and methods, it was easier to build 
@@ -61,15 +61,38 @@ export const projectsData = [
     url: '',
     repo: 'https://github.com/roblivesinottawa/password_cracker/blob/main/crack.py', // if no repo, the button will not show up
   },
-  // {
-  //   id: nanoid(),
-  //   img: 'project.jpg',
-  //   title: '',
-  //   info: '',
-  //   info2: '',
-  //   url: '',
-  //   repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  // },
+  {
+    id: nanoid(),
+    img: 'computerscience.jpg',
+    title: 'Computer Science Problems',
+    info: `This is some scripts of computer science problems sometimes
+    used in interviews and commonly taught in universities and bootcamps.`,
+    info2: '',
+    url: '',
+    repo: 'https://github.com/roblivesinottawa/computer_science', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'computerscience.jpg',
+    title: 'Currently working on:',
+    info: `This is some of the code that I have currently been working
+    on which is part of the 100-day code challenge.`,
+    info2: '',
+    url: '',
+    repo: 'https://github.com/roblivesinottawa/intermediate_100_days', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'github.png',
+    title: 'Github Projects',
+    info: `I have code that goes from basic to intermediate and advanced in languages
+    such as Python, JavaScript,and SQL. Some of the code comes from university, bootcamps,
+    online courses, and other sources. Check put my GitHb page to see the projects 
+    I have been working on.`,
+    info2: '',
+    url: '',
+    repo: 'https://github.com/roblivesinottawa', // if no repo, the button will not show up
+  },
 ];
 
 // CONTACT DATA
